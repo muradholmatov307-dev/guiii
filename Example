@@ -525,7 +525,7 @@ function Library:Create(table)
         if table.StartupSound.Toggle and table.StartupSound.SoundID ~= nil then
             local sound = Instance.new('Sound', game.CoreGui)
             sound.Name = "Startup Sound"
-            sound.SoundId = "rbxassetid://6958727243"
+            sound.SoundId = "rbxassetid://255881176"
             sound.Volume = 1.5
             sound.TimePosition = table.StartupSound.TimePosition
             sound:Play()
